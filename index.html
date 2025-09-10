@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<title>Vaia - Tu Viaje, organizado. Simplifica cada aventura.</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #6366F1;
+        --secondary-color: #818CF8;
+      }
+      .btn-gradient {
+        background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+      }
+      .btn-gradient:hover {
+        background-image: linear-gradient(to right, var(--secondary-color), var(--primary-color));
+      }
+    </style>
+</head>
+<body class="bg-slate-50" style='font-family: Inter, "Noto Sans", sans-serif;'>
+<div class="relative flex size-full min-h-screen flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-slate-200 px-10 py-4 bg-white/80 sticky top-0 z-50 backdrop-blur-sm">
+<div class="flex items-center gap-2 text-slate-900">
+<svg class="text-[var(--primary-color)]" fill="none" height="32" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="32" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"></path>
+<path d="m9 12 2 2 4-4"></path>
+</svg>
+<h2 class="text-slate-900 text-2xl font-bold tracking-tighter">Vaia</h2>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-slate-700 hover:text-[var(--primary-color)] text-sm font-medium transition-colors" href="#features">Funcionalidades</a>
+<a class="text-slate-700 hover:text-[var(--primary-color)] text-sm font-medium transition-colors" href="#testimonials">Testimonios</a>
+<a class="text-slate-700 hover:text-[var(--primary-color)] text-sm font-medium transition-colors" href="#faq">FAQ</a>
+</nav>
+<div class="flex items-center gap-2">
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-md h-10 px-4 bg-transparent text-slate-900 text-sm font-bold leading-normal tracking-[0.015em] border border-slate-300 hover:bg-slate-100 transition-colors duration-300">
+<span class="truncate">Empezá ya</span>
+</button>
+<button class="btn-gradient flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-md h-10 px-4 text-white text-sm font-bold leading-normal tracking-[0.015em] transition-all duration-300 hover:shadow-lg">
+<span class="truncate">Descarga Vaia</span>
+</button>
+</div>
+</header>
+<main class="flex-1">
+<section class="relative bg-white">
+<div class="absolute inset-0 z-0">
+<img alt="Fondo de viaje minimalista" class="object-cover w-full h-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdhUFcZ8d8JEj4F62lLUrwRipArhJc1Qm1Y0PrlqU5Hn8nc32WrGJsgAxXl6UiMz386dORqpir3h0fEe0N25ZXfsZrzNN7YnsCrd-a3tVEMIxBoCs0O82G2eM6em5z7vwhuUu3wED8LFtHRCQoYxan6BDeZDwaDKPQ9wLeEzYHzhFNDFfpCo0F_Hq4RodNU9exd-tNs8JEMFhDu8zqqxxx2zpU5Hi3hOsh3velIwXACL6PQuyyAojMWqX3MCjn1Kpl_o2CBP2CGAI"/>
+<div class="absolute inset-0 bg-white/40 backdrop-blur-sm"></div>
+</div>
+<div class="container mx-auto flex flex-col items-center gap-12 px-4 relative z-10 py-32 sm:py-48">
+<div class="lg:w-3/4 text-center">
+<h1 class="text-4xl font-black leading-tight tracking-tighter text-slate-900 md:text-6xl"><span class="text-[var(--primary-color)]">Vaia:</span> Tu Viaje, organizado. Simplifica cada aventura.</h1>
+<p class="mt-6 max-w-2xl mx-auto text-lg font-light text-slate-700 md:text-xl">Di adiós al estrés de la planificación. Con Vaia, gestiona documentos, crea checklists y colabora en tus viajes desde un solo lugar.</p>
+<div class="mt-10 flex flex-col items-center gap-4 sm:flex-row justify-center">
+<button class="btn-gradient flex h-12 min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-md px-6 text-base font-bold text-white shadow-lg transition-transform hover:scale-105 duration-300">
+<span class="material-symbols-outlined">download</span>
+<span class="truncate">Descarga Vaia</span>
+</button>
+<button class="flex h-12 min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-md border border-slate-400 bg-white/50 px-6 text-base font-bold text-slate-900 backdrop-blur-sm transition-all duration-300 hover:bg-white/80 hover:shadow-md">
+<span class="truncate">Empezá gratis</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-slate-50 py-20 sm:py-24" id="features">
+<div class="container mx-auto max-w-7xl px-4">
+<div class="mb-20 text-center">
+<h2 class="text-3xl font-bold tracking-tighter text-slate-900 sm:text-4xl">Funcionalidades Pensadas Para Ti</h2>
+<p class="mt-4 max-w-2xl mx-auto text-lg leading-8 text-slate-600">Herramientas que transforman la planificación de tu viaje en una experiencia sencilla y agradable.</p>
+</div>
+<div class="grid grid-cols-1 gap-x-12 gap-y-16 md:grid-cols-3">
+<div class="flex flex-col items-center text-center p-6 bg-white rounded-xl shadow-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+<div class="mb-5 flex size-16 items-center justify-center rounded-full bg-indigo-100 text-[var(--primary-color)]">
+<svg fill="none" height="36" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="36" xmlns="http://www.w3.org/2000/svg">
+<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+<polyline points="14 2 14 8 20 8"></polyline>
+<line x1="16" x2="8" y1="13" y2="13"></line>
+<line x1="16" x2="8" y1="17" y2="17"></line>
+<polyline points="10 9 9 9 8 9"></polyline>
+</svg>
+</div>
+<h3 class="text-xl font-semibold text-slate-900">Documentos Centralizados</h3>
+<p class="mt-2 text-base text-slate-600">Guarda pasaportes, boletos y reservas en un solo lugar. Accede a ellos al instante, incluso sin conexión.</p>
+</div>
+<div class="flex flex-col items-center text-center p-6 bg-white rounded-xl shadow-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+<div class="mb-5 flex size-16 items-center justify-center rounded-full bg-indigo-100 text-[var(--primary-color)]">
+<svg fill="none" height="36" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="36" xmlns="http://www.w3.org/2000/svg">
+<path d="M9 11l3 3L22 4"></path>
+<path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+</svg>
+</div>
+<h3 class="text-xl font-semibold text-slate-900">Checklists de Viaje</h3>
+<p class="mt-2 text-base text-slate-600">Crea listas para no olvidar nada. Desde "hacer la maleta" hasta "comprar souvenirs".</p>
+</div>
+<div class="flex flex-col items-center text-center p-6 bg-white rounded-xl shadow-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+<div class="mb-5 flex size-16 items-center justify-center rounded-full bg-indigo-100 text-[var(--primary-color)]">
+<svg fill="none" height="36" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="36" xmlns="http://www.w3.org/2000/svg">
+<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+<circle cx="9" cy="7" r="4"></circle>
+<path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+<path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+</svg>
+</div>
+<h3 class="text-xl font-semibold text-slate-900">Planificación en Grupo</h3>
+<p class="mt-2 text-base text-slate-600">Invita a tus compañeros de viaje a colaborar. Compartan itinerarios y gastos sin complicaciones.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-white py-20 sm:py-24" id="testimonials">
+<div class="container mx-auto max-w-7xl px-4">
+<div class="mb-20 text-center">
+<h2 class="text-3xl font-bold tracking-tighter text-slate-900 sm:text-4xl">Lo que dicen nuestros viajeros</h2>
+<p class="mt-4 max-w-2xl mx-auto text-lg leading-8 text-slate-600">Historias de quienes ya han transformado su forma de viajar con Vaia.</p>
+</div>
+<div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+<div class="flex flex-col items-center text-center p-8 bg-slate-50 rounded-xl border border-slate-100">
+<img alt="User testimonial" class="w-16 h-16 rounded-full mb-5" src="https://lh3.googleusercontent.com/a/ACg8ocK8c--3_wosI6u00y1npgnI85d7m1uTCkKqHVcbR_mX3Q=s96-c"/>
+<blockquote class="text-slate-600 italic">"¡La mejor app para organizar viajes! Pude tener todos mis documentos en un solo lugar y la checklist me salvó de olvidar el cargador."</blockquote>
+<cite class="mt-5 font-semibold text-slate-900 not-italic">- Ana G.</cite>
+</div>
+<div class="flex flex-col items-center text-center p-8 bg-slate-50 rounded-xl border border-slate-100">
+<img alt="User testimonial" class="w-16 h-16 rounded-full mb-5" src="https://lh3.googleusercontent.com/a/ACg8ocK_1Dpk9JquR3yLsoA_T2x-v7aJ0QXosXU-938B9Q_o=s96-c"/>
+<blockquote class="text-slate-600 italic">"Planificar un viaje en grupo era un caos hasta que descubrimos Vaia. La función colaborativa es simplemente genial."</blockquote>
+<cite class="mt-5 font-semibold text-slate-900 not-italic">- Carlos M.</cite>
+</div>
+<div class="flex flex-col items-center text-center p-8 bg-slate-50 rounded-xl border border-slate-100">
+<img alt="User testimonial" class="w-16 h-16 rounded-full mb-5" src="https://lh3.googleusercontent.com/a/ACg8ocJqL-pY_gq-Xn_vD5tM6sQn_XzZ1k-bW_rT5vQ_Jg=s96-c"/>
+<blockquote class="text-slate-600 italic">"Diseño limpio, fácil de usar y muy intuitiva. Me encanta la simplicidad y lo potente que es. ¡Totalmente recomendada!"</blockquote>
+<cite class="mt-5 font-semibold text-slate-900 not-italic">- Sofía R.</cite>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-slate-50 py-20 sm:py-24" id="faq">
+<div class="container mx-auto max-w-3xl px-4">
+<div class="mb-20 text-center">
+<h2 class="text-3xl font-bold tracking-tighter text-slate-900 sm:text-4xl">Tus Dudas Resueltas</h2>
+<p class="mt-4 max-w-2xl mx-auto text-lg leading-8 text-slate-600">Todo claro para que empieces a organizar tu próxima aventura sin preocupaciones.</p>
+</div>
+<div class="space-y-6">
+<details class="group bg-white p-6 rounded-lg shadow-sm">
+<summary class="flex items-center justify-between cursor-pointer font-semibold text-slate-900">¿Vaia tiene algún costo? <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180">expand_more</span>
+</summary>
+<p class="mt-4 text-slate-600">Puedes empezar gratis. Vaia ofrece un plan sin costo con todo lo esencial para organizar tus viajes. Si viajas con frecuencia, nuestro plan Premium te da acceso a funciones avanzadas.</p>
+</details>
+<details class="group bg-white p-6 rounded-lg shadow-sm">
+<summary class="flex items-center justify-between cursor-pointer font-semibold text-slate-900">¿Mi información personal está segura? <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180">expand_more</span>
+</summary>
+<p class="mt-4 text-slate-600">Totalmente. La seguridad es nuestra prioridad número uno. Usamos cifrado de nivel bancario para proteger tus documentos y datos. Viaja tranquilo, tu información está a salvo con nosotros.</p>
+</details>
+<details class="group bg-white p-6 rounded-lg shadow-sm">
+<summary class="flex items-center justify-between cursor-pointer font-semibold text-slate-900">¿Necesito internet para usar la app? <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180">expand_more</span>
+</summary>
+<p class="mt-4 text-slate-600">No siempre. Descarga tus itinerarios y documentos para acceder a ellos sin conexión. Ideal para cuando estás en pleno vuelo o en lugares con poca cobertura. Vaia se sincroniza al volver a tener internet.</p>
+</details>
+</div>
+</div>
+</section>
+<section class="bg-white py-20">
+<div class="container mx-auto max-w-4xl px-4 text-center bg-indigo-50 rounded-2xl p-12">
+<h2 class="text-3xl font-bold tracking-tighter text-slate-900 sm:text-4xl">Simplifica Tu Viaje Ahora</h2>
+<p class="mt-4 text-lg leading-8 text-slate-600">Únete a miles de viajeros que organizan sus aventuras de forma inteligente. Descarga la app y empieza hoy.</p>
+<div class="mt-10 flex flex-col items-center gap-4 sm:flex-row justify-center">
+<button class="btn-gradient flex h-12 min-w-[180px] max-w-[480px] cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-md px-6 text-base font-bold text-white shadow-lg transition-transform hover:scale-105 duration-300">
+<span class="material-symbols-outlined">download</span>
+<span class="truncate">Descarga Vaia</span>
+</button>
+<button class="flex h-12 min-w-[180px] max-w-[480px] cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-md border border-slate-300 bg-white px-6 text-base font-bold text-slate-900 transition-all duration-300 hover:bg-slate-100 hover:shadow-md">
+<span class="truncate">Empieza Ya Gratis</span>
+</button>
+</div>
+</div>
+</section>
+</main>
+<footer class="border-t border-slate-200 bg-white">
+<div class="container mx-auto max-w-7xl px-4 py-8">
+<div class="flex flex-col items-center justify-between gap-6 md:flex-row">
+<div class="flex items-center gap-2 text-slate-700">
+<svg class="text-[var(--primary-color)]" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"></path>
+<path d="m9 12 2 2 4-4"></path>
+</svg>
+<span class="text-sm font-medium">© 2024 Vaia. Todos los derechos reservados.</span>
+</div>
+<div class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
+<a class="text-sm text-slate-600 hover:text-[var(--primary-color)] transition-colors" href="#">Política de Privacidad</a>
+<a class="text-sm text-slate-600 hover:text-[var(--primary-color)] transition-colors" href="#">Términos de Servicio</a>
+<a class="text-sm text-slate-600 hover:text-[var(--primary-color)] transition-colors" href="#">Contacto</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body></html>
